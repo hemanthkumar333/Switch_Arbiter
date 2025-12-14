@@ -7,7 +7,7 @@ Assume the priority order is : REQ[3] > REG[2] > REQ[1] > REQ[0]
 module Fixed_Priority_Arbiter(
 
         input            clk,
-	input            reset_n,
+		input            reset_n,
         input [3:0]      i_Req,
         output reg [3:0] o_Gnt
 );
